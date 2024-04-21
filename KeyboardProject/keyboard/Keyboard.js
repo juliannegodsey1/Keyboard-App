@@ -114,7 +114,7 @@ const Keyboard = {
                         keyElement.innerHTML = createIconHTML("check_circle");
     
                         keyElement.addEventListener("click", () => {
-                            this.close;
+                            this.close();
                             this._triggerEvent("onclose");
                         });
                         break;
